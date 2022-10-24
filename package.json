@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "masterPortfolio",
+  "name": "luuudo-portfolio",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://ludovicsterlin.github.io/",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
@@ -29,6 +29,9 @@
     "styled-components": "^5.1.1",
     "styletron-engine-atomic": "^1.4.6",
     "styletron-react": "^5.2.7"
+  },
+  "peerDependencies": {
+    "@svgr/webpack": "^6.5.0"
   },
   "devDependencies": {
     "dotenv": "^6.2.0",

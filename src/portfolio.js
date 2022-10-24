@@ -1,33 +1,37 @@
-/* Change this file to get your personal Porfolio */
+/* Change this file to get your personal Portfolio */
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
+
+const DESCRIPTION =
+  "Interest in artificial intelligence, cybersecurity, data science, software engineering, and more. Moreover, I would like to apply my knowledge to bring solutions to environmental or safety issues." +
+  "I graduated with an M.Sc. in Aerospace engineering at ISAE-SUPAERO, a world leader in aerospace engineering higher education." +
+  "Creative and innovative mind, with an eclectic range of interests. Curious by nature and a big desire to discover and learn new things in different fields.";
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
-  description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  title: "Ludovic's Portfolio",
+  description: DESCRIPTION,
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Ludovic Sterlin Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://ludovicsterlin.github.io/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
-  subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  title: "Ludovic Sterlin",
+  logo_name: "LudovicSterlin",
+  nickname: "Luuudo",
+  subTitle: DESCRIPTION,
+  // TODO:2022-10-24:@LudovicSterlin: add link to CV from github gist ?
+  resumeLink: "https://www.linkedin.com/in/ludovic-sterlin/",
+  portfolio_repository:
+    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FLudovicSterlin",
+  githubProfile: "https://github.com/LudovicSterlin",
 };
 
 const socialMediaLinks = [
@@ -42,46 +46,46 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/LudovicSterlin",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/ludovic-sterlin/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+  // {
+  //   name: "YouTube",
+  //   link: "https://youtube.com/c/DevSense19",
+  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  // },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:l.sterlin.pro@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "X-Twitter",
+  //   link: "https://twitter.com/ashutosh_1919",
+  //   fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
+  //   backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
+  // },
+  // {
+  //   name: "Facebook",
+  //   link: "https://www.facebook.com/laymanbrother.19/",
+  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  // },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/layman_brother/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
@@ -728,7 +732,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on those social media. You can message me, I will try to reply within 24 hours. I can help you with RL, ML, AI, Python, JavaScript, Typescript, Cloud and Opensource Development.",
   },
   blogSection: {
     title: "Blogs",
