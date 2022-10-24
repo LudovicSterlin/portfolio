@@ -1,9 +1,9 @@
-import fetch from 'node-fetch';
-import fs from 'fs';
+import fs from "fs";
+import fetch from "node-fetch";
 
 const openSource = {
   githubConvertedToken: "Your Github Token Here",
-  githubUserName: "Your Github Username Here",
+  githubUserName: "LudovicSterlin",
 };
 
 const query_pr = {

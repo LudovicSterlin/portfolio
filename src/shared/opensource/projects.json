@@ -1,1 +1,100 @@
-{"data":[{"id":"MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=","name":"masterPortfolio","createdAt":"2020-03-06T16:26:54Z","url":"https://github.com/ashutosh1919/masterPortfolio","description":"The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ","isFork":false,"languages":[{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=","name":"truvisory","createdAt":"2020-06-03T11:53:55Z","url":"https://github.com/ashutosh1919/truvisory","description":"This project is meant to provide resources to users who want to access good LinkedIn posts which contains resources to learn any Technology, Design, Self-Branding, Motivation etc. You can visit project by:","isFork":false,"languages":[{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=","name":"ml-data-bot","createdAt":"2020-06-19T14:24:55Z","url":"https://github.com/ashutosh1919/ml-data-bot","description":"Chatbot which helps you to get important statistics from the data to get insights to build Machine learning, Deep learning and Statistical models","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"}]},{"id":"MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=","name":"Stock-Prediction-using-LSTM","createdAt":"2018-11-03T05:00:56Z","url":"https://github.com/ashutosh1919/Stock-Prediction-using-LSTM","description":"This Project is predicting stocks for 32 companies with error less than 1% using LSTM Networks.","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"},{"name":"Jupyter Notebook","iconifyClass":"logos-jupyter"}]},{"id":"MDEwOlJlcG9zaXRvcnkyMDIxNDc4ODA=","name":"Pick-Parser","createdAt":"2019-08-13T13:13:00Z","url":"https://github.com/dsc-iiitdmk/Pick-Parser","description":"This Project is to create a tool which can parse the Resumes and transform them into our own templates","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"}]},{"id":"MDEwOlJlcG9zaXRvcnkxODIxMjk3NTQ=","name":"Survival_3D_Game","createdAt":"2019-04-18T17:25:51Z","url":"https://github.com/ashutosh1919/Survival_3D_Game","description":"Survival Game using Unity3D","isFork":false,"languages":[{"name":"C#","iconifyClass":"logos-c-sharp"}]}]}
+{
+  "data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjgxNjY4Nzg=",
+      "name": "sdd-aml-evaluation-interpretml",
+      "createdAt": "2021-01-09T13:56:42Z",
+      "url": "https://github.com/LudovicSterlin/sdd-aml-evaluation-interpretml",
+      "description": "A notebook exploring the paper \"InterpretML: A Unified Framework for Machine Learning Interpretability\" (H. Nori, S. Jenkins, P. Koch, and R. Caruana 2019).",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMTUwNzM3MTY=",
+      "name": "sd-stochastic-optimization-project",
+      "createdAt": "2020-11-22T15:50:41Z",
+      "url": "https://github.com/LudovicSterlin/sd-stochastic-optimization-project",
+      "description": "An interactive notebook quickly exploring the paper Evolving Controllably Difficult Datasets for Clustering and the related package HAWKS. Examination part of the  Stochastic Optimization class.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjE2ODIyNjE=",
+      "name": "ml-class-anomaly-detection",
+      "createdAt": "2020-12-15T13:51:23Z",
+      "url": "https://github.com/LudovicSterlin/ml-class-anomaly-detection",
+      "description": "Course materials for Algorithms in Machine Learning: Anomaly Detection at ISAE-SUPAERO.",
+      "isFork": true,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyOTk5ODU3ODE=",
+      "name": "ssd-aml-modele-lineaire",
+      "createdAt": "2020-09-30T16:41:09Z",
+      "url": "https://github.com/LudovicSterlin/ssd-aml-modele-lineaire",
+      "description": "All exercises that were done during class \"Modele Lineaire\" of Algorithm in Machine Learning module",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyOTgxMDAyNTU=",
+      "name": "held-karp",
+      "createdAt": "2020-09-23T21:37:49Z",
+      "url": "https://github.com/LudovicSterlin/held-karp",
+      "description": "Notebook on Travelling salesman problem using Held Karp's algorithm",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjAxMDc5NTM=",
+      "name": "advent-of-code-2020",
+      "createdAt": "2020-12-09T23:43:58Z",
+      "url": "https://github.com/LudovicSterlin/advent-of-code-2020",
+      "description": "Resolution of the puzzles from https://adventofcode.com/2020",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    }
+  ]
+}
