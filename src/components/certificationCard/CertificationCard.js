@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./CertificationCard.css";
 import { Fade } from "react-reveal";
+import "./CertificationCard.css";
 
 class CertificationCard extends Component {
   render() {
@@ -11,7 +11,11 @@ class CertificationCard extends Component {
         <div className="cert-card">
           <div className="content">
             <a
-              href={certificate.certificate_link}
+              href={
+                certificate.certificate_link
+                  ? certificate.certificate_link
+                  : undefined
+              }
               target="_blank"
               rel="noopener noreferrer"
             >
