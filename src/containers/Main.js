@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import { Route, Switch, HashRouter } from "react-router-dom";
-import Home from "../pages/home/HomeComponent";
-import Splash from "../pages/splash/Splash";
-import Education from "../pages/education/EducationComponent";
-import Experience from "../pages/experience/Experience";
-import Opensource from "../pages/opensource/Opensource";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Contact from "../pages/contact/ContactComponent";
-import Projects from "../pages/projects/Projects";
-import { settings } from "../portfolio.js";
+import Education from "../pages/education/EducationComponent";
 import Error404 from "../pages/errors/error404/Error";
+import Experience from "../pages/experience/Experience";
+import Home from "../pages/home/HomeComponent";
+import Opensource from "../pages/opensource/Opensource";
+import Projects from "../pages/projects/Projects";
+import Splash from "../pages/splash/Splash";
+import { settings } from "../portfolio.js";
 
 export default class Main extends Component {
   render() {
@@ -114,15 +114,6 @@ export default class Main extends Component {
                   <Contact {...props} theme={this.props.theme} />
                 )}
               />
-              {/* <Route
-							path="/splash"
-							render={(props) => (
-								<Splash
-									{...props}
-									theme={this.props.theme}
-								/>
-							)}
-						/> */}
               <Route
                 path="/projects"
                 render={(props) => (
