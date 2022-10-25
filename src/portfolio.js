@@ -319,6 +319,15 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     // TODO:2022-10-25:@LudovicSterlin: register on competitive sites at least Kaggle
+    {
+      siteName: "CodinGame",
+      iconifyClassname: "simple-icons:codingame",
+      style: {
+        color: "#F2BB13",
+      },
+      profileLink:
+        "https://www.codingame.com/profile/c2c170c23239d4c4eab1e781239cee726775832",
+    },
     // {
     //   siteName: "Advent Of Code",
     //   iconifyClassname: "simple-icons:hackerrank",
@@ -425,46 +434,57 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work, Internship and Summer jobs",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked for more than 3 years in an evolving startup called Hinfact as a Software Engineer, Data Scientist and Research Assistant. During my last project I also did the Specifications and of Design and Software Architecture for a new product. Moreover, I gained experience during multiple school and personal projects.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
+          title: "Software Engineer",
+          company: "Hinfact",
+          company_url: "https://www.hinfact.fr",
+          logo_path: "hinfact_logo.png",
+          duration: "February 2022 - PRESENT",
+          location: "Toulouse, France",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
+            "Design and Implementation of a microservice in Typescript based on a Headless CMS with a PostgreSQL database to share data and knowledge between different entities",
+          color: "#124AF9",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Research engineer in Data-Science and Neuroergonomics",
+          company: "Hinfact",
+          company_url: "https://www.hinfact.fr",
+          logo_path: "hinfact_logo.png",
+          duration: "Jun 2021 - Dec 2021",
+          location: "Toulouse, France",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
+            "The realization of experiments including pilots during aeronautical scenarios in order to implement metrics/models allowing the prediction of performance and/or mental states from objective data (physiological, behavioral).",
+          color: "#124AF9",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Machine Learning Engineer",
+          company: "DCAS Neuroergonomics and Human Factors team, ISAE Supaero",
+          company_url: "https://www.hinfact.fr",
+          logo_path: "isae_logo.png",
+          duration: "Oct 2020 - Mar 2021",
+          location: "Toulouse, France",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
+            "Recognition and extraction of data using Computer Vision in a cockpit environment",
+          color: "#16206E",
+        },
+        {
+          title: "Full Stack developer",
+          company: "Hinfact",
+          company_url: "https://www.hinfact.fr",
+          logo_path: "hinfact_logo.png",
+          duration: "Sep 2019 - Aug 2020",
+          location: "Toulouse, France",
+          description:
+            "Conception and implementation of a tablet App mainly based on Eye tracking and Flight-Simulator data",
+          color: "#124AF9",
         },
       ],
     },
@@ -472,88 +492,88 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          title: "Research engineer for Comp’Chain project",
+          company:
+            "Department of Complex Systems Engineering, (DISC), ISAE Supaero",
+          company_url: "https://www.isae-supaero.fr",
+          logo_path: "isae_logo.png",
+          duration: "Mar 2019 - July 2019",
+          location: "Toulouse, France",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
+            "POC of a Diploma/Degree certification application (web interface and API) based on Ethereum Blockchain",
+          color: "#16206E",
         },
         {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
+          title: "Full stack developer for CALENDAR project",
+          company: "4th year student's project at ISAE Supaero",
+          company_url: "https://www.isae-supaero.fr",
+          logo_path: "isae_logo.png",
+          duration: "Feb 2019 - Mar 2019",
+          location: "Toulouse, France",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
+            "Developing a Web App for managing calendar and events, within a group of 4 students",
+          color: "#16206E",
+        },
+        {
+          title: "Research assistant in Computer Science",
+          company:
+            "Department of Complex Systems Engineering, (DISC), ISAE Supaero",
+          company_url:
+            "https://www.isae-supaero.fr/en/research/departments/department-of-complex-systems-engineering-disc-94/department-of-complex-systems-engineering-disc/",
+          logo_path: "isae_logo.png",
+          duration: "Nov 2017 - Feb 2018",
+          location: "Toulouse, France",
+          description:
+            "Implementations of small projects in C. Implementation/resolution of mazes. Test and review of a course 'Introduction to functional programming'",
+          color: "#16206E",
         },
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Summer Jobs",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
+          title: "Delivery driver, order picker",
+          company: "TechniFreins GroupAuto",
+          company_url: "https://distributeur.groupauto.fr/320-techni-freins",
+          logo_path: "groupauto_logo.svg",
+          duration: "July, August 2017",
+          location: "Libourne, France",
+          description: "",
+          color: "#121046",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
+          title: "Hotel Catering employee",
+          company: "LEO Resto et ACE hôtel",
           company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
+            "https://www.leoresto.fr/nous-trouver/aire-de-bordeaux-cestas-ouest.html",
+          logo_path: "leoresto_logo.png",
+          duration: "July, August 2016",
+          location: "Cestas, France",
+          description: "",
+          color: "#787f34",
         },
         {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
+          title: "Wine worker",
+          company: "Château Petit Boyer",
+          company_url: "https://www.petit-boyer.com",
+          logo_path: "petitboyer_logo.png",
+          duration: "July, August 2014",
+          location: "Blaye, France",
+          description: "",
+          color: "#141215",
+        },
+        {
+          title:
+            "Internship at a French military airbase, Fighter-Pilot formation units",
+          company: "BA120 armée de l’air",
+          company_url:
+            "https://devenir-aviateur.fr/venir/implantations/base-aerienne/base-aerienne-120-cazaux",
+          logo_path: "armeeair_logo.png",
+          duration: "February 2011",
+          location: "Cazaux, France",
+          description: "",
+          color: "#0D3ACB",
         },
       ],
     },
