@@ -36,14 +36,6 @@ const greeting = {
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/LudovicSterlin",
@@ -70,19 +62,19 @@ const socialMediaLinks = [
   },
   // {
   //   name: "Twitter",
-  //   link: "https://twitter.com/ashutosh_1919",
+  //   link: "https://twitter.com/username",
   //   fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
   //   backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   // },
   // {
   //   name: "Facebook",
-  //   link: "https://www.facebook.com/laymanbrother.19/",
+  //   link: "https://www.facebook.com/username/",
   //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
   //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   // },
   // {
   //   name: "Instagram",
-  //   link: "https://www.instagram.com/layman_brother/",
+  //   link: "https://www.instagram.com/username/",
   //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
   //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   // },
