@@ -604,38 +604,42 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Here is some of my public projects. Mostly python and jupyter notebooks school projects. Also, some personal side project in Python or Javascript. You can find all my project on my github.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
+  description:
+    "Unfortunately my research work was done under NDA, and is still confidential but you can check out my company White Paper or some of my best-friends publications, enjoy.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publications = {
   data: [
     {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
+      id: "HINFACT_white-paper",
+      name: "A unified Human Factor Approach",
+      createdAt: "2021-01-15T16:26:54Z",
+      description:
+        "A unified approach in Human Factors for the Aviation industry, by Hinfact",
+      url:
+        "http://hinfact.fr/our-vision-a-unified-human-factor-approach/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjE4NjIiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
     },
     {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
+      id: "BENA-20210604",
+      name: "Extreme sparsity gives rise to functional specialization",
+      createdAt: "2021-06-04T17:39:36Z",
+      description:
+        "Paper on neural networks sparsity by Gabriel Béna. (Neurosciensce, ML, AI)",
+      url: "https://hal.archives-ouvertes.fr/hal-03709706/",
     },
     {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
+      id: "BRAIDA-20220630",
+      name: "Locality and approximation in Quantum Annealing",
+      createdAt: "2022-06-30T10:01:16Z",
+      description: "Paper on Quantum Annealing by Arthur Braida.",
+      url: "https://hal.archives-ouvertes.fr/hal-03709706/",
     },
   ],
 };
@@ -646,7 +650,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "ludovic_circle.png",
     description:
-      "I am available on those social media. You can message me, I will try to reply within 24 hours. I can help you with RL, ML, AI, Python, JavaScript, Typescript, Cloud and Opensource Development.",
+      "I am available on those social media. You can message me, I will try to reply within 24 hours. I can help you with RL, ML, AI, Python, JavaScript, Typescript, Cloud and Open Source Development.",
   },
   blogSection: {
     title: "Blogs",
