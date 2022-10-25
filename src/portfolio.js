@@ -432,7 +432,7 @@ const certifications = {
       title: "Work In Progress",
       subtitle: "- ",
       logo_path: "wip_logo.png",
-      certificate_link: "https://ludovicsterlin.github.io/#/education",
+      certificate_link: "",
       alt_name: "WIP",
       color_code: "#FFD700",
     },
@@ -655,9 +655,8 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle: "Under construction",
-    // subtitle:
     //   "I like to write it down sometimes, when I succeed in doing something that was not well documented yet on the internet.",
-    link: "https://ludovicsterlin.github.io/#/contact",
+    link: "#/contact",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {

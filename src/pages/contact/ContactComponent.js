@@ -67,14 +67,15 @@ class Contact extends Component {
                 >
                   {blogSection["subtitle"]}
                 </p>
-                <div className="blogsite-btn-div">
+                {/* TODO:2022-10-25:@LudovicSterlin: Uncomment this button when blog site is up*/}
+                {/* <div className="blogsite-btn-div">
                   <Button
                     text="Visit My Blogsite"
                     newTab={true}
                     href={blogSection.link}
                     theme={theme}
                   />
-                </div>
+                </div> */}
               </div>
               <div className="blog-heading-img-div">
                 {/* <img
