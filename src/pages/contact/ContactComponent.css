@@ -87,6 +87,7 @@
   font-family: "Google Sans Regular";
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 40px;
 }
 
 .contact-header-detail-text {
@@ -123,7 +124,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 0;
+  margin-top: -20px;
 }
 
 @media (max-width: 1380px) {

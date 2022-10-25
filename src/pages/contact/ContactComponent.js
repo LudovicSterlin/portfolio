@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import TopButton from "../../components/topButton/TopButton";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
+import Button from "../../components/button/Button";
+import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
+import TopButton from "../../components/topButton/TopButton";
+import { contactPageData, greeting } from "../../portfolio.js";
+import AddressImg from "./AddressImg";
+import BlogsImg from "./BlogsImg";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -107,26 +107,26 @@ class Contact extends Component {
                 >
                   {addressSection["subtitle"]}
                 </p>
+                <Button
+                  className="address-btn-div"
+                  text="Visit on Google Maps"
+                  newTab={true}
+                  href={addressSection.location_map_link}
+                  theme={theme}
+                />
                 <h1
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
                   {phoneSection["title"]}
                 </h1>
-                <p
-                  className="contact-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {phoneSection["subtitle"]}
-                </p>
-                <div className="address-btn-div">
-                  <Button
-                    text="Visit on Google Maps"
-                    newTab={true}
-                    href={addressSection.location_map_link}
-                    theme={theme}
-                  />
-                </div>
+                <Button
+                  className="address-btn-div"
+                  text={phoneSection["subtitle"]}
+                  newTab={true}
+                  href={phoneSection.link}
+                  theme={theme}
+                />
               </div>
             </div>
           </Fade>
