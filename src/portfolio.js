@@ -730,31 +730,28 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "ludovic_circle.png",
     description:
       "I am available on those social media. You can message me, I will try to reply within 24 hours. I can help you with RL, ML, AI, Python, JavaScript, Typescript, Cloud and Opensource Development.",
   },
   blogSection: {
     title: "Blogs",
-    subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    subtitle: "Under construction",
+    // subtitle:
+    //   "I like to write it down sometimes, when I succeed in doing something that was not well documented yet on the internet.",
+    link: "https://ludovicsterlin.github.io/#/contact",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "Currently based in Toulouse, France",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://goo.gl/maps/46TSyWyKfzDbpQWY9",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Phone Number",
+    subtitle: "Ask me by mail",
+    link: "mailto:l.sterlin.pro@gmail.com",
   },
 };
 
