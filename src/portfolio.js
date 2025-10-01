@@ -6,13 +6,13 @@ const settings = {
 };
 
 const DESCRIPTION =
-  "Interest in artificial intelligence, cybersecurity, data science, software engineering, and more. Moreover, I would like to apply my knowledge to bring solutions to environmental or safety issues." +
-  "I graduated with an M.Sc. in Aerospace engineering at ISAE-SUPAERO, a world leader in aerospace engineering higher education." +
+  "Interest in artificial intelligence, cybersecurity, data science, software engineering, and more. Moreover, I would like to apply my knowledge to bring solutions to environmental or safety issues. " +
+  "I graduated with an M.Sc. in Aerospace engineering at ISAE-SUPAERO, a world leader in aerospace engineering higher education. " +
   "Creative and innovative mind, with an eclectic range of interests. Curious by nature and a big desire to discover and learn new things in different fields.";
 
 //SEO Related settings
 const seo = {
-  title: "Ludovic's Portfolio",
+  title: "Ludovic Sterlin Portfolio",
   description: DESCRIPTION,
   og: {
     title: "Ludovic Sterlin Portfolio",
@@ -127,7 +127,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Creating application backend in Java, Python & Django, Node & Express, in JavaScript and/or TypeScript",
+        "⚡ Creating application backend in Typescript, Python & Java. Using Node & Express, FastAPI or Django, Spring",
         "⚡ Building responsive website front end using React and Vue",
         "⚡ Developing mobile applications using React Native",
       ],
@@ -158,13 +158,13 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
+          fontAwesomeClassname: "simple-icons:node",
           style: {
             color: "#339933",
           },
         },
         {
-          skillName: "NPM",
+          skillName: "npm",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
             color: "#CB3837",
@@ -175,6 +175,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:pnpm",
           style: {
             color: "#F69220",
+          },
+        },
+        {
+          skillName: "Turborepo",
+          fontAwesomeClassname: "simple-icons:turborepo",
+          style: {
+            color: "#FF1E56",
           },
         },
         {
@@ -226,6 +233,13 @@ const skills = {
             color: "#263238",
           },
         },
+        {
+          skillName: "Streamlit",
+          fontAwesomeClassname: "simple-icons:streamlit",
+          style: {
+            color: "#FF4B4B",
+          },
+        },
       ],
     },
     {
@@ -234,6 +248,7 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Switching servers deployment from manual Docker deployment on AWS ec2 to Terraform deployment with Helm and K8s.",
       ],
       softwareSkills: [
         {
@@ -286,10 +301,24 @@ const skills = {
           },
         },
         {
+          skillName: "Helm",
+          fontAwesomeClassname: "simple-icons:helm",
+          style: {
+            color: "#0F1689",
+          },
+        },
+        {
           skillName: "Kubernetes",
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: {
             color: "#326CE5",
+          },
+        },
+        {
+          skillName: "Terraform",
+          fontAwesomeClassname: "simple-icons:terraform",
+          style: {
+            color: "#844FBA",
           },
         },
       ],
@@ -300,6 +329,7 @@ const skills = {
       skills: [
         "⚡ Using the right tools to improve efficiency and automation of no-value tasks",
         "⚡ Building automation workflows using n8n",
+        "⚡ Developing custom CLI with oclif to automate routine dev workflows (DB restores, product launches) and boost developer velocity. Integrating AWS S3, SharePoint, and Slack for seamless internal tooling.",
         "⚡ Finding really cool tools and extensions like jump.",
       ],
       softwareSkills: [
@@ -308,6 +338,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:notion",
           style: {
             color: "#000000",
+          },
+        },
+        {
+          skillName: "n8n",
+          fontAwesomeClassname: "simple-icons:n8n",
+          style: {
+            color: "#EA4B71",
           },
         },
         {
@@ -335,12 +372,13 @@ const competitiveSites = {
       profileLink:
         "https://www.codingame.com/profile/c2c170c23239d4c4eab1e781239cee726775832",
     },
-    // {
-    //   siteName: "Advent Of Code",
-    //   iconifyClassname: "simple-icons:hackerrank",
-    //   style: {
-    //     color: "#17C101",
-    //  },
+    {
+      siteName: "Advent Of Code",
+      iconifyClassname: "simple-icons:hackerrank",
+      style: {
+        color: "#17C101",
+      },
+    },
     // {
     //   siteName: "HackerRank",
     //   iconifyClassname: "simple-icons:hackerrank",
@@ -464,48 +502,68 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Lead Full Stack Engineer",
+          company: "Hinfact",
+          company_url: "https://www.hinfact.fr",
+          logo_path: "hinfact_logo.png",
+          duration: "Sep 2023 - PRESENT",
+          location: "Toulouse, France",
+          description:
+            "Led cross-functional product development and process improvements with a focus on scalable architecture and developer experience.\
+              - Architected and implemented scalable solutions, focusing on maintainable code and robust testing practices.\
+              - Established best practices for API development, database design, ensuring high performance and reliability.\
+              - Implemented comprehensive testing strategies including unit, integration, and end-to-end tests to ensure code quality.\
+              - Actively contributed to development while driving problem-solving sessions and cross-team collaboration.\
+              - Led technical workshops and code reviews to promote knowledge sharing, maintain high code standards and support team growth and continuous learning.\
+              - Acted as the bridge between engineering and product/support teams to align priorities and optimize delivery processes.\
+              - Ensured smooth product releases by managing stakeholder expectations and driving team accountability.\
+              - Managed multiple Tableau server and dashboards, customizable by client, improving data accessibility and decision-making.\
+              - Use of Google Workspace for collaborative reporting and documentation, including Sheets-based data modeling and automated dashboards.\
+              ",
+          color: "#124AF9",
+        },
+        {
           title: "Software Engineer",
           company: "Hinfact",
           company_url: "https://www.hinfact.fr",
           logo_path: "hinfact_logo.png",
-          duration: "February 2022 - PRESENT",
+          duration: "Sep 2019 - Sep 2023",
           location: "Toulouse, France",
           description:
-            "Design and Implementation of a microservice in Typescript based on a Headless CMS with a PostgreSQL database to share data and knowledge between different entities",
+            "\
+            Build scalable products and core features from POC to industrialization in fast-paced, client-driven environments.\
+              - Developed a custom internal CLI with oclif to automate routine dev workflows (DB restores, product launches) and boost developer velocity. Integrated AWS S3, SharePoint, and Slack for seamless internal tooling.\
+              - Developed major new features in a fast-paced release environment to deliver beta versions for prospect clients.\
+              - Specifications, design and support of entire new products, POC, MVP and Industrialisation Phase.\
+              - Switch from npm to pnpm + Turborepo to improve DevX, speed up CI/CD, build and release time.\
+              - Servers deployment switched from Docker to K8s on AWS.\
+              - Conception and implementation of a native teaching assistant App based on Eye tracking and Flight data.\
+              - Developed a stateless microservice architecture from scratch, exposing APIs to handle heavy algorithmic computing (constraint optimization, AI models) across multiple servers.\
+            ",
           color: "#124AF9",
         },
         {
-          title: "Research engineer in Data-Science and Neuroergonomics",
+          title:
+            "Research project leader - master thesis. engineer in Data-Science and Neuroergonomics",
           company: "Hinfact",
           company_url: "https://www.hinfact.fr",
           logo_path: "hinfact_logo.png",
           duration: "Jun 2021 - Dec 2021",
           location: "Toulouse, France",
           description:
-            "The realization of experiments including pilots during aeronautical scenarios in order to implement metrics/models allowing the prediction of performance and/or mental states from objective data (physiological, behavioral).",
+            "Designed and executed pilot experiments in aeronautical scenarios to develop metrics and models predicting performance and mental states based on physiological and behavioral data.",
           color: "#124AF9",
         },
         {
           title: "Machine Learning Engineer",
           company: "DCAS Neuroergonomics and Human Factors team, ISAE Supaero",
-          company_url: "https://www.hinfact.fr",
+          company_url: "https://www.isae-supaero.fr",
           logo_path: "isae_logo.png",
           duration: "Oct 2020 - Mar 2021",
           location: "Toulouse, France",
           description:
-            "Recognition and extraction of data using Computer Vision in a cockpit environment",
+            "Recognition and extraction of flight data via Computer Vision (OCR) in a cockpit environment",
           color: "#16206E",
-        },
-        {
-          title: "Full Stack developer",
-          company: "Hinfact",
-          company_url: "https://www.hinfact.fr",
-          logo_path: "hinfact_logo.png",
-          duration: "Sep 2019 - Aug 2020",
-          location: "Toulouse, France",
-          description:
-            "Conception and implementation of a tablet App mainly based on Eye tracking and Flight-Simulator data",
-          color: "#124AF9",
         },
       ],
     },
