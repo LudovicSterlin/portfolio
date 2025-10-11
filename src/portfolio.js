@@ -5,17 +5,16 @@ const settings = {
   isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
-// FIXME: need shorter description for subTitle of greeting homepage
-const DESCRIPTION =
-  "Interest in AI, data science, software engineering, cybersecurity and more... " +
-  "I graduated with a M.Sc. in Aerospace engineering, major in AI, Data Science — ML, Reinforcement Learning and Deep Learning — and Neuroergonomics at ISAE-SUPAERO. " +
-  "Creative and innovative mind, with an eclectic range of interests. Curious by nature and a big desire to discover and learn new things in different fields. " +
-  "I'm eager to bring my knowledge and solutions to develop cutting-edge technologies. ";
+const DESCRIPTION = [
+  "Engineer who links research and production, turning complex problems into scalable solutions.",
+  "M.Sc. in Aerospace Engineering from ISAE-SUPAERO, specialized in AI, Machine Learning, and Neuroergonomics.",
+  "Driven by curiosity and eclectic range of interests, I combine full-stack and cloud infrastructure expertise with creative problem-solving to transform ideas into production-ready systems.",
+];
 
 //SEO Related settings
 const seo = {
   title: "Ludovic Sterlin Portfolio",
-  description: DESCRIPTION,
+  description: DESCRIPTION.join(" "),
   og: {
     title: "Ludovic Sterlin Portfolio",
     type: "website",
@@ -50,12 +49,6 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  // {
-  //   name: "YouTube",
-  //   link: "https://youtube.com/c/DevSense19",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
   {
     name: "Mail",
     link: "mailto:l.sterlin.pro@gmail.com",
@@ -63,6 +56,12 @@ const socialMediaLinks = [
     iconStyle: "fas",
     backgroundColor: "#827d7dff",
   },
+  // {
+  //   name: "YouTube",
+  //   link: "https://youtube.com/c/DevSense19",
+  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  // },
   // {
   //   name: "Gmail",
   //   link: "mailto:l.sterlin.pro@gmail.com",
@@ -91,47 +90,6 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    // {
-    //   title: "Data Science & AI",
-    //   fileName: "DataScienceImg",
-    //   skills: [
-    //     "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-    //     "⚡ Experience of working with Computer Vision and NLP projects",
-    //     "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Tensorflow",
-    //       fontAwesomeClassname: "logos-tensorflow",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Keras",
-    //       fontAwesomeClassname: "simple-icons:keras",
-    //       style: {
-    //         backgroundColor: "white",
-    //         color: "#D00000",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PyTorch",
-    //       fontAwesomeClassname: "logos-pytorch",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Python",
-    //       fontAwesomeClassname: "ion-logo-python",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //         color: "#3776AB",
-    //       },
-    //     },
-    //   ],
-    // },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
@@ -444,11 +402,6 @@ const degrees = {
         "⚡ Minor in Artificial Intelligence applied for Neurosciences and Neuroergonomics.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
       ],
-      // descriptions: [
-      //   "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-      //   "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-      //   "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
-      // ],
       website_link: "https://www.isae-supaero.fr/",
     },
     {
@@ -490,7 +443,8 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internships and Summer jobs",
   description:
-    "I have worked for more than 6 years in an evolving startup called Hinfact as a Lead Full Stack Engineer, Software Engineer, Data Scientist and Research Assistant. During my last project I also did the Specifications, Design and Software Architecture for a new product. Moreover, I gained experience during multiple school and personal projects.",
+    "I have worked for 6+ years as a Lead Full Stack Engineer, Software Engineer, Data Scientist and Research Project Leader, at Hinfact, an evolving startup. " +
+    "My journey spans research engineering, full-stack development, cloud infrastructure modernization and technical leadership — building and scaling products from conception to production.",
   header_image_path: "experience.svg",
   sections: [
     {
