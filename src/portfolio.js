@@ -5,10 +5,12 @@ const settings = {
   isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
+// FIXME: need shorter description for subTitle of greeting homepage
 const DESCRIPTION =
-  "Interest in artificial intelligence, cybersecurity, data science, software engineering, and more. Moreover, I would like to apply my knowledge to bring solutions to environmental or safety issues. " +
-  "I graduated with an M.Sc. in Aerospace engineering at ISAE-SUPAERO, a world leader in aerospace engineering higher education. " +
-  "Creative and innovative mind, with an eclectic range of interests. Curious by nature and a big desire to discover and learn new things in different fields.";
+  "Interest in AI, data science, software engineering, cybersecurity and more... " +
+  "I graduated with a M.Sc. in Aerospace engineering, major in AI, Data Science — ML, Reinforcement Learning and Deep Learning — and Neuroergonomics at ISAE-SUPAERO. " +
+  "Creative and innovative mind, with an eclectic range of interests. Curious by nature and a big desire to discover and learn new things in different fields. " +
+  "I'm eager to bring my knowledge and solutions to develop cutting-edge technologies. ";
 
 //SEO Related settings
 const seo = {
@@ -55,11 +57,18 @@ const socialMediaLinks = [
   //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   // },
   {
-    name: "Gmail",
+    name: "Mail",
     link: "mailto:l.sterlin.pro@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    fontAwesomeIcon: "fa-envelope",
+    iconStyle: "fas",
+    backgroundColor: "#827d7dff",
   },
+  // {
+  //   name: "Gmail",
+  //   link: "mailto:l.sterlin.pro@gmail.com",
+  //   fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+  //   backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  // },
   // {
   //   name: "Twitter",
   //   link: "https://twitter.com/username",
@@ -432,7 +441,7 @@ const degrees = {
       duration: "2016 - 2021",
       descriptions: [
         "⚡ Major Specialization in Data Science, covering broad range of algorithms in Machine Learning, Reinforcement Learning and Deep Learning.",
-        "⚡ Minor in Artificial Intelligence applied for Neurosciences and Neuroergonomics",
+        "⚡ Minor in Artificial Intelligence applied for Neurosciences and Neuroergonomics.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
       ],
       // descriptions: [
@@ -459,19 +468,6 @@ const degrees = {
       website_link:
         "https://www.isae-supaero.fr/en/about-isae-supaero/sponsorship-relations-with-the-isae-supaero-foundation-212/chaire-cedar/",
     },
-    {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
-    },
   ],
 };
 
@@ -492,9 +488,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Summer jobs",
+  subtitle: "Work, Internships and Summer jobs",
   description:
-    "I have worked for more than 3 years in an evolving startup called Hinfact as a Software Engineer, Data Scientist and Research Assistant. During my last project I also did the Specifications and of Design and Software Architecture for a new product. Moreover, I gained experience during multiple school and personal projects.",
+    "I have worked for more than 6 years in an evolving startup called Hinfact as a Lead Full Stack Engineer, Software Engineer, Data Scientist and Research Assistant. During my last project I also did the Specifications, Design and Software Architecture for a new product. Moreover, I gained experience during multiple school and personal projects.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -508,18 +504,21 @@ const experience = {
           logo_path: "hinfact_logo.png",
           duration: "Sep 2023 - PRESENT",
           location: "Toulouse, France",
-          description:
-            "Led cross-functional product development and process improvements with a focus on scalable architecture and developer experience.\
-              - Architected and implemented scalable solutions, focusing on maintainable code and robust testing practices.\
-              - Established best practices for API development, database design, ensuring high performance and reliability.\
-              - Implemented comprehensive testing strategies including unit, integration, and end-to-end tests to ensure code quality.\
-              - Actively contributed to development while driving problem-solving sessions and cross-team collaboration.\
-              - Led technical workshops and code reviews to promote knowledge sharing, maintain high code standards and support team growth and continuous learning.\
-              - Acted as the bridge between engineering and product/support teams to align priorities and optimize delivery processes.\
-              - Ensured smooth product releases by managing stakeholder expectations and driving team accountability.\
-              - Managed multiple Tableau server and dashboards, customizable by client, improving data accessibility and decision-making.\
-              - Use of Google Workspace for collaborative reporting and documentation, including Sheets-based data modeling and automated dashboards.\
-              ",
+          description: {
+            header:
+              "Led cross-functional product development and process improvements with a focus on scalable architecture and developer experience.",
+            bullets: [
+              "Architected and implemented scalable solutions, focusing on maintainable code and robust testing practices.",
+              "Established best practices for API development, database design, ensuring high performance and reliability.",
+              "Implemented comprehensive testing strategies including unit, integration, and end-to-end tests to ensure code quality.",
+              "Actively contributed to development while driving problem-solving sessions and cross-team collaboration.",
+              "Led technical workshops and code reviews to promote knowledge sharing, maintain high code standards and support team growth and continuous learning.",
+              "Acted as the bridge between engineering and product/support teams to align priorities and optimize delivery processes.",
+              "Ensured smooth product releases by managing stakeholder expectations and driving team accountability.",
+              "Managed multiple Tableau server and dashboards, customizable by client, improving data accessibility and decision-making.",
+              "Use of Google Workspace for collaborative reporting and documentation, including Sheets-based data modeling and automated dashboards.",
+            ],
+          },
           color: "#124AF9",
         },
         {
@@ -529,22 +528,24 @@ const experience = {
           logo_path: "hinfact_logo.png",
           duration: "Sep 2019 - Sep 2023",
           location: "Toulouse, France",
-          description:
-            "\
-            Build scalable products and core features from POC to industrialization in fast-paced, client-driven environments.\
-              - Developed a custom internal CLI with oclif to automate routine dev workflows (DB restores, product launches) and boost developer velocity. Integrated AWS S3, SharePoint, and Slack for seamless internal tooling.\
-              - Developed major new features in a fast-paced release environment to deliver beta versions for prospect clients.\
-              - Specifications, design and support of entire new products, POC, MVP and Industrialisation Phase.\
-              - Switch from npm to pnpm + Turborepo to improve DevX, speed up CI/CD, build and release time.\
-              - Servers deployment switched from Docker to K8s on AWS.\
-              - Conception and implementation of a native teaching assistant App based on Eye tracking and Flight data.\
-              - Developed a stateless microservice architecture from scratch, exposing APIs to handle heavy algorithmic computing (constraint optimization, AI models) across multiple servers.\
-            ",
+          description: {
+            header:
+              "Build scalable products and core features from POC to industrialization in fast-paced, client-driven environments.",
+            bullets: [
+              "Developed a custom internal CLI with oclif to automate routine dev workflows (DB restores, product launches) and boost developer velocity. Integrated AWS S3, SharePoint, and Slack for seamless internal tooling.",
+              "Developed major new features in a fast-paced release environment to deliver beta versions for prospect clients.",
+              "Specifications, design and support of entire new products, POC, MVP and Industrialisation Phase.",
+              "Switch from npm to pnpm + Turborepo to improve DevX, speed up CI/CD, build and release time.",
+              "Servers deployment switched from Docker to K8s on AWS.",
+              "Conception and implementation of a native teaching assistant App based on Eye tracking and Flight data.",
+              "Developed a stateless microservice architecture from scratch, exposing APIs to handle heavy algorithmic computing (constraint optimization, AI models) across multiple servers.",
+            ],
+          },
           color: "#124AF9",
         },
         {
           title:
-            "Research project leader - master thesis. engineer in Data-Science and Neuroergonomics",
+            "Research project leader - master thesis. Engineer in Data-Science and Neuroergonomics",
           company: "Hinfact",
           company_url: "https://www.hinfact.fr",
           logo_path: "hinfact_logo.png",
@@ -709,7 +710,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "ludovic_circle.png",
     description:
-      "I am available on those social media. You can message me, I will try to reply within 24 hours. I can help you with RL, ML, AI, Python, JavaScript, Typescript, Cloud and Open Source Development.",
+      "I am available on those social medias. You can message me, I will try to reply within 24 hours. I can help you with RL, ML, AI, Python, JavaScript, Typescript, Cloud and Open Source Development.",
   },
   blogSection: {
     title: "Blogs",

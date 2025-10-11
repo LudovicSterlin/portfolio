@@ -17,6 +17,7 @@ export default function socialMedia(props) {
   return (
     <div className="social-media-div">
       {socialMediaLinks.map((media, i) => {
+        const iconStyle = media.iconStyle || "fab";
         return (
           <a
             key={i}
@@ -26,7 +27,7 @@ export default function socialMedia(props) {
             rel="noopener noreferrer"
           >
             <IconWrapper {...media} {...props}>
-              <i className={`fab ${media.fontAwesomeIcon}`}></i>
+              <i className={`${iconStyle} ${media.fontAwesomeIcon}`}></i>
             </IconWrapper>
             {/* <span></span> */}
           </a>

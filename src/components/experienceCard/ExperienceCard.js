@@ -105,8 +105,41 @@ class ExperienceCard extends Component {
                   marginTop: 20,
                 }}
               >
-                <div className="repo-description" />
-                {experience["description"]}
+                <div
+                  className="repo-description"
+                  style={{
+                    overflow: "visible",
+                    display: "block",
+                    WebkitLineClamp: "unset",
+                    WebkitBoxOrient: "unset",
+                  }}
+                >
+                  {typeof experience["description"] === "object" &&
+                  experience["description"].header ? (
+                    <>
+                      <p style={{ marginBottom: 12 }}>
+                        {experience["description"].header}
+                      </p>
+                      <ul style={{ margin: 0, paddingLeft: 20 }}>
+                        {experience["description"].bullets.map((item, idx) => (
+                          <li key={idx} style={{ marginBottom: 8 }}>
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  ) : Array.isArray(experience["description"]) ? (
+                    <ul style={{ margin: 0, paddingLeft: 20 }}>
+                      {experience["description"].map((item, idx) => (
+                        <li key={idx} style={{ marginBottom: 8 }}>
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    experience["description"]
+                  )}
+                </div>
               </div>
             </div>
           </div>
